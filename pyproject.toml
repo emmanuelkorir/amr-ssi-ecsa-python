@@ -1,7 +1,17 @@
 [project]
 name = "amr-ssi-python-analysis"
 version = "0.1.0"
-description = "Add your description here"
+description = "A reproducible analysis pipeline for the systematic review on AMR in SSIs in Africa."
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "pandas",
+    "numpy",
+    "openpyxl",
+    "matplotlib",
+    "seaborn",
+    "meta-py",
+    "papermill",
+    "nbconvert",
+    "jupyter",
+]
