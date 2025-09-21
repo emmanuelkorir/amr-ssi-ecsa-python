@@ -1,0 +1,99 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter runtime files
+.jupyter/
+*.json
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Data files (optional — ignore if data is large or private)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.hdf5
+*.feather
+
+# Results / outputs
+*.out
+*.tmp
+*.bak
+
+# Model files (if training ML models)
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.joblib
+*.pickle
+
+# IDE / editor specific
+.vscode/
+.idea/
+*.swp
+
+# Reports
+*.pdf
+*.docx
+
+# Jupyter runtime files
+.jupyter/
+*.json
+
+# Logs
+# We want to track specific, structured logs for auditability.
+# Ignore generic .log files, but make exceptions for our audit logs.
+*.log
+!/logs/deduplication_log.md
+!/logs/missing_data_log.csv
+
+# OS-specific
+.DS_Store
+# ...existing code...
+# Data files (optional — ignore if data is large or private)
+# This section is too broad and will ignore our audit logs.
+# We will make it more specific.
+/data/*.csv
+/data/*.tsv
+/data/*.xls
+/data/*.xlsx
+/data/*.parquet
+/data/*.hdf5
+/data/*.feather
+
+# Results / outputs
+*.out
+
